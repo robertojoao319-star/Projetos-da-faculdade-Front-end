@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:blue;
+    color:yellow;
+    line-height: 1.6;
+
+}
+header {
+    background-color: yellow;
+    color:blue;
+    text-align: 1.6;
+
+}
+header {
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    padding: 40px 20px;
+
+}
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+
+}
+header p {
+    font-size: 18px;
+
+
+}
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+nav a{
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+main{
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+section{
+    background-color: purple;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px
+}
+section h2{
+    color: aliceblue;
+    margin-bottom: 20px;
+    border-bottom: 2px;
+    padding-bottom: 10px;
+}
+article{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-left: 5px;
+    border-radius: 5px;
+}
+article:last-child{
+    margin-bottom: 5px;
+}
+article h3{
+    color: green;
+    margin-bottom: chocolate;
+}
+article p {
+    color:blue,(246, 108,3);
+
+
+}
+aside{ 
+    background-color: yellow;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px ;
+    border-left: 5px;
+
+}
+aside h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+aside ul{
+    padding-left: 25px;
+}
+aside li{
+    margin-left: 25px;
+}
+footer{
+    background-color: rgb(102, 0, 0);
+    text-align: center;
+    padding: 30px 20px;
+}
+footer address{
+    font-style: normal;
+    margin-bottom: 15px;
+}
+footer p{
+    font-size: 14px;
+}
+@media (max-width: 600px){
+    header h1 {
+        font-size: 28px;
+    }
+    nav a{
+        display: block;
+        margin: 8px 0;
+    }
+    main{
+        padding:  0 10px;
+    }
+    aside {
+        padding: 20px;
+    }
+}
+
