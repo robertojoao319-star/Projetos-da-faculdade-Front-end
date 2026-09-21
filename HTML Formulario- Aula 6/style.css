@@ -1,0 +1,120 @@
+/*================
+Configuração geral
+================*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: aqua;
+}
+/*==================
+Titulo
+==================*/
+h1{
+    text-align: center;
+    color: blue;
+    margin-bottom: 25px;
+}
+/*========================
+Formulário
+========================*/
+form{
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(71, 144, 204);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px;
+}
+/*================
+Lael
+================*/
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: darkslategray;
+}
+/*===================
+Campo de texto
+==================*/
+input[type="text"],
+input[type="password"],
+textarea,
+select{
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+/*================
+Efeitos nos campos
+================*/
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus{
+    outline: none;
+    border-color: rgb(9, 12, 12);
+    box-shadow: 0 0 5px;
+}
+/*============
+Radio e Checkbox
+===============*/
+input[type="text"],
+input[type="password"],
+input[type="Checkbox"]{
+    margin-right: 6px;
+    min-height: 8px;
+}
+/*===================
+Textarea
+==================*/
+textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+/*=======================
+Select
+======================*/
+select{
+    cursor:pointer;
+    background-color: white;
+}
+/*================
+Botões
+===============*/
+button{
+    padding: 11px 25px;
+    margin: 15px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*Botão de enviar*/
+button[type="submit"]{
+    background-color: rgb(55, 17, 224);
+    color: white;
+}
+/*Botão Limpar*/
+button[type="reset"]{
+    background-color: rgb(209, 36, 36);
+    color: white;
+}
+/*Efeito hover*/
+button[type="submit"]:hover{
+    background-color: rgb(2, 8, 8);
+}
+button[type="reset"]:hover{
+    background-color: brown;
+}
+
