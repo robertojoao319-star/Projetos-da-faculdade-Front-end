@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(185, 246, 246);
+    color: green;
+}
+.header {
+    background-color: white;
+    color: chartreuse;
+    text-align: center;
+    padding: 20px;
+}
+.nav {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 15px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.content h2 {
+    color: darkcyan;
+}
+.video-container {
+    text-align: center;
+    margin-top: 25px;
+}
+video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(11, 11, 11);
+}
+.footer {
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+audio {
+    width: 100%;
+    max-width: 800px;
+}
+iframe {
+    max-width: 100%;
+}
+
+input,
+textarea {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
