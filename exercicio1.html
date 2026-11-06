@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercício 1 — Soma de dois números</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/exercicio1.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <p class="etiqueta">Exercício 1</p>
+    <h1>Soma de dois números</h1>
+    <p>Digite dois números inteiros e calcule a soma diretamente nesta página.</p>
+  </header>
+  <main class="container">
+    <a class="voltar" href="index.html">← Todas as atividades</a>
+    <section class="painel">
+      <h2>Somar dois valores</h2>
+      <p>Preencha os dois campos e pressione <strong>Somar</strong>. Zero e números negativos também são aceites.</p>
+      <form id="form-soma" novalidate>
+        <div class="campo">
+          <label for="numero-a">Primeiro número</label>
+          <input id="numero-a" name="numero-a" type="number" step="1" inputmode="numeric" placeholder="Ex.: 12" aria-describedby="erro-a">
+          <p class="mensagem-erro" id="erro-a" aria-live="polite"></p>
+        </div>
+        <div class="campo">
+          <label for="numero-b">Segundo número</label>
+          <input id="numero-b" name="numero-b" type="number" step="1" inputmode="numeric" placeholder="Ex.: 8" aria-describedby="erro-b">
+          <p class="mensagem-erro" id="erro-b" aria-live="polite"></p>
+        </div>
+        <div class="acoes">
+          <button class="botao" type="submit">Somar</button>
+          <button class="botao secundario" id="limpar" type="reset">Limpar</button>
+        </div>
+      </form>
+      <div class="resultado" id="resultado" aria-live="polite" aria-atomic="true"></div>
+    </section>
+  </main>
+  <footer>Atividade resolvida em JavaScript</footer>
+</body>
+</html>

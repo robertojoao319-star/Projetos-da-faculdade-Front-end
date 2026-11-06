@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Exercício 4 — Validação de login</title><link rel="stylesheet" href="css/style.css"><script src="js/exercicio4.js" defer></script></head>
+<body><header class="topo"><p class="etiqueta">Exercício 4</p><h1>Validação de login</h1><p>O envio do formulário verifica se os campos de e-mail e senha foram preenchidos.</p></header><main class="container"><a class="voltar" href="index.html">← Todas as atividades</a><section class="painel"><h2>Entrar</h2><p>Deixe um ou ambos os campos vazios para testar a validação.</p><form id="form-login" novalidate>
+  <div class="campo"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="erro-email"><p class="mensagem-erro" id="erro-email" aria-live="polite"></p></div>
+  <div class="campo"><label for="senha">Senha</label><input id="senha" name="senha" type="password" autocomplete="current-password" aria-describedby="erro-senha"><p class="mensagem-erro" id="erro-senha" aria-live="polite"></p></div>
+  <button class="botao" type="submit">Entrar</button><div class="resultado" id="resultado" aria-live="polite"></div>
+</form></section></main><footer>Atividade resolvida em JavaScript</footer></body></html>
